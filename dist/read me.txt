@@ -1,0 +1,3 @@
+to start sass compile to css:
+
+npm run sass
