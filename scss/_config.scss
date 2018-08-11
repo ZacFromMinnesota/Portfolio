@@ -1,9 +1,9 @@
-$primary-color: #444;
+$primary-color: black;
 // #eece1a yellow
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url("../img/outrun2.gif");
-$background-opacity: 0.6;
+$background-opacity: 0.3;
 
 
 @mixin easeOut {
@@ -28,6 +28,15 @@ $background-opacity: 0.6;
         background: rgba($primary-color,$background-opacity);
       }
     }
+  }
+}
+
+// Set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40){
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 
