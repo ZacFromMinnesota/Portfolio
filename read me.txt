@@ -1,0 +1,10 @@
+scripts
+"sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    
+"deploy": "gh-pages -d dist"
+
+to start sass compile to css:
+npm run sass'
+
+need to install for github pages
+npm i gh-pages
