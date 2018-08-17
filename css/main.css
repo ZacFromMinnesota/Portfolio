@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/dogprofilepic.jpg");
+      background: url("../img/outrun.gif");
       border-radius: 50%;
       border: solid 3px #FF4500; }
   .menu .nav-item {
@@ -165,9 +165,9 @@ main {
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-img {
-  grid-area: bioimage;
-  max-width: 75%;
-  max-height: 75%;
+  grid-area: "bioimage";
+  width: 75%;
+  height: 75%;
   margin: auto;
   border-radius: 50%;
   border: #FF4500 3px solid; }
@@ -294,4 +294,6 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
+    grid-template-columns: 1fr; }
+  .about-info {
     grid-template-columns: 1fr; } }
