@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/outrun.gif");
+      background: url("../img/dogprofilepic.jpg");
       border-radius: 50%;
       border: solid 3px #FF4500; }
   .menu .nav-item {
@@ -166,6 +166,8 @@ main {
 
 .bio-img {
   grid-area: bioimage;
+  max-width: 75%;
+  max-height: 75%;
   margin: auto;
   border-radius: 50%;
   border: #FF4500 3px solid; }

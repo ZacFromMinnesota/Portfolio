@@ -8,3 +8,6 @@ npm run sass'
 
 need to install for github pages
 npm i gh-pages
+
+tab1 data id e316561f-3394-108b-efb6-d5bc74151e2b
+tab2 data id e316561f-3394-108b-efb6-d5bc74151e2e
